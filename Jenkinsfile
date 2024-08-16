@@ -1,6 +1,7 @@
 @Library('jenkinsbuddy@master') _
 
-pipeline{
+pipeline {
+    agent any
     stages{
         stage('info'){
             steps {
