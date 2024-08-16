@@ -6,7 +6,7 @@ pipeline {
         stage('info'){
             steps {
                 script {
-                    welcome.sayHello "Naveen"
+                    echo 'Hello world'
                 }
             }
         }
