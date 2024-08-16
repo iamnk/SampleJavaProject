@@ -3,8 +3,10 @@
 pipeline{
     stages{
         stage('info'){
-            script {
-                welcom.sayHello "Naveen"
+            steps {
+                script {
+                    welcome.sayHello "Naveen"
+                }
             }
         }
     
